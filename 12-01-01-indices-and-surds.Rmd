@@ -1,0 +1,53 @@
+---
+title: "edX ImperialX: A-Level Mathematics"
+subtitle: "Course 1 Module 1: Indices and Surds"
+author: "Clare Gibson"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float: true
+    theme: cosmo
+    code_folding: show
+---
+
+[View on edX](https://learning.edx.org/course/course-v1:ImperialX+alm001+3T2018/block-v1:ImperialX+alm001+3T2018+type@sequential+block@2804c98e3bd6440bac9b5fc4e506b31b/block-v1:ImperialX+alm001+3T2018+type@vertical+block@6ee7b6e80c0f49639e99b05c31558117)
+
+# Indices
+## The Laws of Indices
+
+|Category |Law |Examples |Comments|
+|:---|:---|:---|:---|
+|Multiplication |$a^xa^y = a^{a+y}$ |*Example 1:*<br>$$\begin{aligned}
+2^3\times2^5\\
+=(2\times2\times2)\times(2\times2\times2\times2\times2)\\
+=2^8
+\end{aligned}$$<br>*Example 2:*<br>$$\begin{aligned}
+3^4\times3^2\times3\\
+=3^4\times3^2\times3^1\\
+=3^{4+2+1}\\
+=3^7
+\end{aligned}$$<br>*Example 3:*<br>$$\begin{aligned}
+6^3\times15^2\times10^5\\
+=(2^3\times3^3)\times(3^2\times5^2)\times(5^5\times2^5)\\
+=2^8\times3^5\times5^7
+\end{aligned}$$ |When you multiply by powers of 2 you **add** the indices.|
+|Division |$\frac{a^x}{a^y}=a^{x-y}$ |*Example 1:*<br>$$\begin{aligned}
+\frac{2^8}{2^5}\\
+=\frac{2\times2\times2\times2\times2\times2\times2\times2}{2\times2\times2\times2\times2}\\
+=\frac{2}{2}\times\frac{2}{2}\times\frac{2}{2}\times\frac{2}{2}\times\frac{2}{2}\times\frac{2}{1}\times\frac{2}{1}\times\frac{2}{1}\\
+=1\times1\times1\times1\times1\times2\times2\times2\\
+=2^3
+\end{aligned}$$<br>*Example 2:*<br>$$\begin{aligned}
+\frac{15^3\times3^2}{5^2}\\
+=\frac{3^3\times5^3\times3^2}{5^2}\\
+=3^{3+2}\times5^{3-2}\\
+=3^5\times5
+\end{aligned}$$ |When you divide by the powers of 2, you **subtract** the indices.|
+|Powers |$(a^x)^y=a^{xy}$ |*Example 1:*<br>$$\begin{aligned}
+(3^5)^4\\
+=3^5\times3^5\times3^5\times3^5\\
+=3^{20}
+\end{aligned}$$ |When you raise a power by another power you **multiply** the indices.|
+|Other rules |$a^0=1$ (for $a>0$)<br>$a^{-x}=\frac{1}{a^x}$<br>$a^{\frac{y}{x}}=\sqrt[x]{a^y}$|||
