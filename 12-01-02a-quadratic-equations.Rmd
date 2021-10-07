@@ -4,12 +4,10 @@ subtitle: "Revision: Quadratic Equations"
 author: "Clare Gibson"
 date: "`r Sys.Date()`"
 output: 
-  html_document:
+  prettydoc::html_pretty:
     toc: true
-    number_sections: false
-    toc_float: true
-    theme: cosmo
-    code_folding: show
+    theme: architect
+    highlight: github
 ---
 
 # Solving Quadratic Equations
