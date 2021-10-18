@@ -222,7 +222,7 @@ The angle of the straight line depends on the value we have for $m$. For some va
 
 **What are the approximate values of $m$ for which the straight line crosses or touches the circle?**
 
-Using the applet, it seems that the line touches the circle at a value of $-1.82$ at one extreme and at a value of $1$ at the other extreme (and at all points in between). The approximate answer therefore is $\{m:-1.82\le{m}\le1\}$.
+Using the applet, it seems that the line touches the circle at a value of $-1.82$ at one extreme (and all values lower than this) and at a value of $1$ at the other extreme (and at all values higher than this). The approximate answer therefore is $\{m:m\le-1.82\}\cup\{m:m\ge1\}$.
 
 **How can you use what you know to get some exact values?**
 
@@ -235,4 +235,29 @@ Solving the two equations simultaneously will give us the points where the line 
 |:---|:---|
 |$y=mx$<br>$x^2+y^2-2x-14y+32=0$|Substitute $y=mx$ into $x^2+y^2-2x-14y+32=0$.|
 |$x^2+(mx)^2-2x-14(mx)+32=0$|Multiply out the $mx$ terms.|
-|$x^2+m^2x^2-2x-14mx+32=0$|Gather $x^2$ and $x$ terms.|
+|$x^2+m^2x^2-2x-14mx+32=0$|Gather $x^2$ and $x$ terms and factorise.|
+|$(1+m^2)x^2-2(1+7m)x+32=0$||
+
+This equation is quadratic. It will change depending on what $m$ is. A quadratic equation can have 0 real solutions, 1 real solution or 2 real solutions.  For the line and the circle having one solution means that the line touches the circle.  Having 2 solutions means that the line crosses the circle.  We can find the value of $m$ that gives one solution by looking at when the discriminant $b^2-4ac$ is equal to 0.
+
+For $(1+m^2)x^2-2(1+7m)x+32=0$, $a=(1+m^2)$, $b=2(1+7m)$, $c=32$. Therefore:
+
+$b^2-4ac=(2(1+7m))^2-4\times(1+m^2)\times32$. We want to know where this is 0.
+
+|Calculation |Next Step |
+|:---|:---|
+|$(2(1+7m))^2-128(1+m^2)=0$|Square the first term|
+|$4(1+7m)^2-128(1+m^2)=0$|Divide by 4|
+|$(1+7m)^2-32(1+m^2)=0$|Multiply out the brackets|
+|$1+14m+49m^2-32-32m^2=0$|Simplify|
+|$17m^2+14m-31=0$|Factorise|
+|$(17m+31)(m-1)=0$|Solve|
+|$m=-\frac{31}{17}$ or $m=1$||
+
+Note that $-\frac{31}{17}=-1.82$ which is the same answer we obtained using the applet.
+
+The two calculated values are a start to writing all of the values that satisfy the required conditions (touching 
+or crossing the circle).  Starting with $m=1$ where the line touches the circle and increasing $m$ makes the line steeper, rotating it anticlockwise about the origin. As it gets steeper, it cuts the graph in two places.
+
+The key thing to realise is that this continues until the line is vertical.  This means that you get a touching point or two crossing points for values of $m$ where $m\ge1$. When the vertical line rotates anticlockwise past the vertical, the gradient becomes negative. This means that we have to define the values for $m$ as a separate inequality.  For negative gradients you get a touching point or two crossing points for values of $m$ where $m\le-\frac{31}{17}$. We have to say that the values of $m$ will come from either $m\ge1$ or $m\le-\frac{31}{17}$.  So, using set notation, the set of values is $\{m:m\le-\frac{31}{17}\}\cup\{m:m\ge1\}$.
+
