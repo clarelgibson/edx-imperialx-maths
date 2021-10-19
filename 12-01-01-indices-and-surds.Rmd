@@ -4,12 +4,10 @@ subtitle: "Course 1 Module 1: Indices and Surds"
 author: "Clare Gibson"
 date: "`r Sys.Date()`"
 output: 
-  html_document:
+  prettydoc::html_pretty:
     toc: true
-    number_sections: false
-    toc_float: true
-    theme: cosmo
-    code_folding: show
+    theme: architect
+    highlight: github
 ---
 
 [View on edX](https://learning.edx.org/course/course-v1:ImperialX+alm001+3T2018/block-v1:ImperialX+alm001+3T2018+type@sequential+block@2804c98e3bd6440bac9b5fc4e506b31b/block-v1:ImperialX+alm001+3T2018+type@vertical+block@6ee7b6e80c0f49639e99b05c31558117)
