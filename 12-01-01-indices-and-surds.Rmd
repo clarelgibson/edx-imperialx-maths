@@ -3,11 +3,10 @@ title: "edX ImperialX: A-Level Mathematics"
 subtitle: "Course 1 Module 1: Indices and Surds"
 author: "Clare Gibson"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
+output:
+  html_document:
+    theme: paper
     toc: true
-    theme: architect
-    highlight: github
 ---
 
 [View on edX](https://learning.edx.org/course/course-v1:ImperialX+alm001+3T2018/block-v1:ImperialX+alm001+3T2018+type@sequential+block@2804c98e3bd6440bac9b5fc4e506b31b/block-v1:ImperialX+alm001+3T2018+type@vertical+block@6ee7b6e80c0f49639e99b05c31558117)

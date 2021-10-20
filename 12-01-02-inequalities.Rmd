@@ -3,11 +3,10 @@ title: "edX ImperialX: A-Level Mathematics"
 subtitle: "Course 1 Module 2: Inequalities"
 author: "Clare Gibson"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
+output:
+  html_document:
+    theme: paper
     toc: true
-    theme: architect
-    highlight: github
 ---
 
 [View on edX](https://learning.edx.org/course/course-v1:ImperialX+alm001+3T2018/block-v1:ImperialX+alm001+3T2018+type@sequential+block@bb3496edf7e04656a290c786f9e3bb12/block-v1:ImperialX+alm001+3T2018+type@vertical+block@0b090fd7ab2342d89a63f96492bc7909)

@@ -3,11 +3,10 @@ title: "edX ImperialX: A-Level Mathematics"
 subtitle: "Revision: Quadratic Equations"
 author: "Clare Gibson"
 date: "`r Sys.Date()`"
-output: 
-  prettydoc::html_pretty:
+output:
+  html_document:
+    theme: paper
     toc: true
-    theme: architect
-    highlight: github
 ---
 
 # Solving Quadratic Equations
